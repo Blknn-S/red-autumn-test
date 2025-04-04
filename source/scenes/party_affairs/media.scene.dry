@@ -24,7 +24,7 @@ The SPD runs a veritable media empire, with many newspapers throughout every Ger
 
 @commercial
 title: Make our newspapers more commercialized by broadening their appeal beyond party supporters.
-subtitle: This might upset ideological purists, but it may bring in more funds and perhaps expose the middle class to socialist views.
+subtitle: This will upset ideological purists, but it may bring in more funds and perhaps expose the middle class to socialist views.
 on-arrival: resources += 1; commercialized_media += 1; new_middle_spd += 4*(1 - dissent); old_middle_spd += 3*(1-dissent); left_dissent += 10; labor_dissent += 10
 
 Our commercialized newspapers are able to bring in more funds. However, the left and labor factions express their displeasure.
@@ -38,10 +38,10 @@ Our campaign media is mostly reaching the workers who are already saturated with
 
 @ideological
 title: We will have vibrant ideological debate within our newspapers.
-subtitle: There will be space for all factions to air their views.
+subtitle: There will be space for all factions to discuss their views.
 on-arrival: left_dissent -= 6; labor_dissent -= 6; center_dissent -= 6; reformist_dissent -= 6; neorevisionist_dissent -= 6
 
-This has been our media course historically, and it has successfully paved over the many tensions in our party.
+This has been our media course historically, and it has successfully consistently resolved many arguments within the party.
 
 @radio
 title: Why not fund a radio station?
@@ -61,7 +61,7 @@ unavailable-subtitle: Not enough resources.
 view-if: radio > 0 and radio <= 3
 on-arrival: radio += 1; resources -= 1; new_middle_spd += 5*(1 - dissent); old_middle_spd += 3*(1 - dissent); workers_spd += 3*(1 - dissent); socialism += 3*(1 - dissent); nationalism -= 3*(1 - dissent)*(pacifism-2) if pacifism > 2; pro_republic += 3*(1-dissent)*(democratization-2) if democratization > 2
 
-Our new radio network has a mix of popular and political programming, and is proving a success.
+Our new radio network has a mix of popular and political programming, and it is proving itself to be a success.
 
 @radio_3
 title: We must keep on building up our radio network.
@@ -69,7 +69,7 @@ subtitle: It is now financially self-sufficient, and does not require any more r
 view-if: radio > 3 and radio <= 5 and year <= 1931
 on-arrival: radio += 1; new_middle_spd += 5*(1 - dissent); old_middle_spd += 4*(1 - dissent); workers_spd += 4*(1 - dissent); rural_spd += 3*(1 - dissent); unemployed_spd += 2*(1-dissent); socialism += 3*(1 - dissent); nationalism -= 3*(1 - dissent)*(pacifism-2) if pacifism > 2; pro_republic += 3*(1-dissent)*(democratization-2) if democratization > 2
 
-Our radio network has become a successful tool for spreading our message.
+Our radio network has become a successful tool for spreading our message, especially to the working class.
 
 @radio_4
 title: We should keep on supporting our radio network.
