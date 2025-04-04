@@ -9,3 +9,27 @@ face-image: img/portraits/StresemannGustav.jpg
 = The Death of Gustav Stresemann
 
 Gustav Stresemann, leader of the DVP and longtime foreign minister, has died at the tragically young age of 51. He was the primary force driving his party to support democracy; without him, the democratic forces in the Republic will be so much weaker.
+
+- @what_now_dvp: What happens to the DVP leadership now?
+
+@what_now_dvp
+
+The DVP has organised a vote to decide the parties future leader, and potentially its future policy on democracy as a whole.
+
+The consensus candidate on the right is Ernst Scholz, a businessman who represents the anti-democratic forces within the DVP. On the other hand there is Julius Curtius, a prominent democrat, who has been more supportive of cooperation with the SPD than most of the DVP.
+
+- @scholz: The DVP elects Ernst Scholz as the party chair.
+- @curtius: Influence the DVP to select Julius Curtius as the party chair.
+
+@scholz
+on-arrival: dvp_party_leader = "Scholz"; dvp_relation -= 5
+
+Ernst Scholz has been selected as the chairman of the DVP. He seems to represent a rightward turn from Stresemann, and will preside over a DVP less inclined to compromise with the left.
+
+@curtius
+unavailable-subtitle: Our relations are not good enough.
+subtitle: Curtius is likely to be friendlier to us than Scholz.
+choose-if: dvp_relation >= 70
+on-arrival: dvp_party_leader = "Curtius"; catholics_spd += 5; workers_dvp += 3
+
+With our grassroots connections, we have been able to influence the Center delegates to support Julius Curtius as the new Center chairman. He has long been a friend of the SPD, and will be more inclined to collaborate with us compared to Scholz. He also increases the appeal of the DVP to the working class.
