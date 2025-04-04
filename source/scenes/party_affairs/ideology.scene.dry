@@ -10,7 +10,7 @@ max-visits: 3
 
 = Questions of Ideology
 
-The SPD is torn between many different ideological currents. What should be our primary ideological guidance for now?
+The SPD is torn between many different ideological currents. What should be our primary ideological guidance be for now?
 
 [? if ideology != 0 : We have previously chosen a [+ ideology +] ideology. Changing it will likely have drawbacks. ?]
 
@@ -51,7 +51,7 @@ if (Q.ideology && Q.ideology != "labor") {
 go-to: changed if changed = 1
 on-departure: ideology = "labor"; labor_strength += 10; wtb_support += 1; labor_dissent -= 5; kpd_relation -= 3
 
-The labor wing of the party supports continued particpation in government in order to provide benefits to the workers, and the creation of public works programs for employment.
+The labor wing of the party supports continued participation in government in order to provide benefits to the workers, and the creation of public works programs to bolster employment.
 
 @reform
 on-arrival: {!
@@ -67,4 +67,4 @@ The reformist wing of the party seeks to preserve the Republic and the democrati
 @changed
 on-arrival: left_dissent += 5; center_dissent += 5; labor_dissent += 5; reformist_dissent += 5
 
-We have changed ideologies. Many in the party feel unmoored.
+We have changed ideologies. Many in the party feel dissatisfied with our lack of proper organisation.
