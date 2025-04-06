@@ -40,7 +40,7 @@ Current police loyalty: [+ prussian_police_loyalty : loyalty +].
 
 @police_bribery
 view-if: prussian_police_loyalty < 1
-on-arrival: prussian_police_loyalty += 0.2
+on-arrival: prussian_police_loyalty += 0.1
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
