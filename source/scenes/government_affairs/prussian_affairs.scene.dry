@@ -39,11 +39,11 @@ The police have historically been overrun with reactionaries, and we are trying 
 Current police loyalty: [+ prussian_police_loyalty : loyalty +].
 
 @police_bribery
-view-if: prussian_police_loyalty < 1
-on-arrival: prussian_police_loyalty += 0.2; resources -= 1
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
+view-if: prussian_police_loyalty < 1
+on-arrival: prussian_police_loyalty += 0.2; resources -= 1
 
 # increase police loyalty
 The police have historically been led by reactionaries, which has weakened our control over it. To gather more support among the police, we need to provide them with financial benefits. It is easier to do, but is it morally correct?
