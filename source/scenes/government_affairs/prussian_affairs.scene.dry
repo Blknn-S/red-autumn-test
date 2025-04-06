@@ -44,7 +44,7 @@ choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
 on-arrival: resources -= 1
 view-if: prussian_police_loyalty < 1
-on-arrival: prussian_police_loyalty += 0.1
+on-arrival: prussian_police_loyalty += 0.2
 
 # increase police loyalty
 The police have historically been led by reactionaries, which has weakened our control over it. To gather more support among the police, we need to provide them with financial benefits. It is easier to do, but is it morally correct?
