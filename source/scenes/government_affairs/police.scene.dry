@@ -62,6 +62,6 @@ on-arrival: investigate_far_right += 1; sa_strength -= 20; workers_nsdap -= 3; n
 Unfortunately, our investigations have failed to turn up anything. Rumors are that the targets of our investigation were tipped off by infiltrators within the police.
 
 @investigate_far_left
-on-arrival: kpd_relation -= 5; rfb_strength -= 50; interior_police_loyalty += 0.1
+on-arrival: kpd_relation -= 5; rfb_strength -= 20; interior_police_loyalty += 0.1
 
 The police are happy to investigate the far left, but the investigation doesn't serve much purpose other than to weaken the RFB.
