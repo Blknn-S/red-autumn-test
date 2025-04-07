@@ -67,7 +67,7 @@ choose-if: budget >= 1
 subtitle: -1 budget
 on-arrival: budget -= 1; soviet_relation += 2; coalition_dissent += 1; foreign_goal_completed += 1
 
-The Soviets are pleased that we have sent them aid, and have not asked for anything specific in exchange. Our coalition partners are less pleased.
+The Soviets are pleased that we have sent them aid without asking for anything specific in exchange. The same cannot be said about our coalition partners.
 
 - @kpd: Ask if Moscow could help repair our relations with the KPD.
 - @wittorf: Do the Soviets know about the Wittorf Affair? Do they know that we know?
