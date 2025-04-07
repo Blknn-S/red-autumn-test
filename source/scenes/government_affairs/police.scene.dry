@@ -15,6 +15,7 @@ As with the state police units and the Reichswehr, the internal police tends to 
 - @loyalty: Improve the loyalty of the Interior Ministry forces.
 - @investigate_corruption: Investigate corruption by big businesses.
 - @investigate_far_right: Investigate illegal activity among the far right.
+- @investigate_far_left: Investigate illegal activity among the far left.
 - @domestic_enemies: Investigate or ban our domestic enemies.
 - @deport_hitler
 - @root: Take no action for now.
@@ -59,3 +60,8 @@ on-arrival: investigate_far_right += 1; sa_strength -= 20; workers_nsdap -= 3; n
 @investigate_far_right_failure
 
 Unfortunately, our investigations have failed to turn up anything. Rumors are that the targets of our investigation were tipped off by infiltrators within the police.
+
+@investigate_far_left
+on-arrival: kpd_relation -= 5; rfb_strength -= 50; interior_police_loyalty += 0.1
+
+The police are happy to investigate the far left, but the investigation doesn't serve much purpose other than to weaken the RFB.
