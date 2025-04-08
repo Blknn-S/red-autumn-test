@@ -5,6 +5,8 @@ tags: party_affairs
 on-arrival: month_actions += 1
 card-image: img/reichsbanner_flag.jpg
 
+The *Reichsbanner Schwarz-Rot-Gold* is a mass organization for the defense of the Republic against the extremists who threaten it. It is time we put it to good use by using it to fight off radicals in the name of the Republic. We can attack the far-right, defend our own voter base or improve cooperation with the other parties.
+
 - @reichsbanner_offensive: Use the Reichsbanner to fight the far-right.
 - @reichsbanner_defensive: Use the Reichsbanner to protect our voter base.
 - @reichsbanner_cooperation: Improve cooperation between the parties of the Reichsbanner.
@@ -21,9 +23,9 @@ on-arrival: reformist_dissent -= 5; labor_dissent -= 5; center_dissent -= 5; lef
 Our voters are pleased to know that the Reichsbanner is protecting them.
 
 @reichsbanner_cooperation
-on-arrival: z_relation += 5
+on-arrival: z_relation += 5; ddp_relation += 5
 
-We use the Reichsbanner as a means of improving relations with the Center Party.
+We use the Reichsbanner as a means of improving relations with the other parties.
 
 @cancel
 
