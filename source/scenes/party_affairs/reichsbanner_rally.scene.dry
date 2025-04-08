@@ -3,3 +3,23 @@ new-page: true
 is-card: true
 tags: party_affairs
 on-arrival: month_actions += 1
+
+- @reichsbanner_offensive: Use the Reichsbanner to fight the far-right.
+- @reichsbanner_defensive: Use the Reichsbanner to protect our voter base.
+- @reichsbanner_cooperation: Improve cooperation between the parties of the Reichsbanner.
+- @cancel: Cancel the rally.
+
+@reichsbanner_offensive
+on-arrival: sa_strength -= 20; sh_strength -= 20
+
+The Reichsbanner successfully spots the weak points of the far-right and rallies against them!
+
+@reichsbanner_defensive
+on-arrival: reformist_dissent -= 5; labor_dissent -= 5; center_dissent -= 5; left_dissent -= 5; neorevisionist_dissent -= 5
+
+Our voters are pleased to know that the Reichsbanner is protecting them.
+
+@reichsbanner_cooperation
+on-arrival: z_relation += 5
+
+We use the Reichsbanner as a means of improving relations with the Center Party.
