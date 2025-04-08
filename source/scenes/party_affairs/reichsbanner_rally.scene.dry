@@ -4,6 +4,7 @@ is-card: true
 tags: party_affairs
 on-arrival: month_actions += 1
 card-image: img/reichsbanner_flag.jpg
+#subtitle: The Reichsbanner is ready for more action.
 
 = Reichsbanner Rally
 
