@@ -1,1 +1,5 @@
-
+title: Reichsbanner Rally
+new-page: true
+is-card: true
+tags: party_affairs
+on-arrival: month_actions += 1
