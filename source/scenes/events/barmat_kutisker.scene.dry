@@ -34,6 +34,6 @@ Our party newspapers [? if radio >= 1:and radio ?]unleash a propaganda campaign 
 
 @business
 view-if: investigate_corruption >= 2
-on-arrvival: unemployed_spd -= 1; old_middle_spd -= 1; old_middle_nsdap += 1
+on-arrival: unemployed_spd -= 1; old_middle_spd -= 1; old_middle_nsdap += 1
 
 Thanks to our investigations against corrupt businesses, we have gathered enough information to counter the far-right propaganda campaign. [+ nsdap_leader +] feebly tries to claim that the actions of an individual Christian don't apply to all Christians while the actions of one Jew apply to the entire Jewish religion. Most laugh at the blatant hypocrisy but some still believe such racist rhetoric.
