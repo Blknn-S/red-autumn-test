@@ -15,7 +15,7 @@ They are using Barmat and Kutisker's Jewish origins to spearhead their anti-semi
 - @ignore: We will ignore the event entirely.
 - @declaration: Declare that corruption has no place within the SPD.
 - @schacht: Take the attack to the NSDAP, leaking Schacht's corruption!
-- @business: Expose the corruption being committed by Christian businessmen.
+- @business: Expose the corruption being committed by Christian businessmen!
 
 @ignore
 on-arrival: workers_spd -= 3; unemployed_spd -= 3; new_middle_spd -= 5; old_middle_spd -= 5; new_middle_nsdap += 3; old_middle_nsdap += 3; unemployed_nsdap += 1
