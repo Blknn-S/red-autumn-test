@@ -1,0 +1,38 @@
+title: Barmat and Kutisker Affair
+subtitle: Two Jewish SPD members are in trouble.
+view-if: year = 1930 and month = 5
+max-visits: 1
+tags: event
+new-page: true
+face-image: img/All_Quiet.jpg
+
+= Barmat and Kutisker Affair
+
+Julius Barmat, a fellow SPD member, was implicated in acts of corruption, war profiteering, fraud, and bribery alongside a racketeer named Ivan Kutisker. Although the case was considered done-and-dusted in 1925, the NSDAP has once again started attacking our party over our involvement in the case.
+
+They are using Barmat and Kutisker's Jewish origins to spearhead their anti-semitic agenda. How do we wish to deal with these attacks?
+
+- @ignore: We will ignore the event entirely.
+- @declaration: Declare that corruption has no place within the SPD.
+- @schacht: Take the attack to the NSDAP, leaking Schacht's corruption!
+- @business: Expose the corruption that is being committed by Christian businessmen.
+
+@ignore
+on-arrival: workers_spd -= 3; unemployed_spd -= 3; new_middle_spd -= 5; old_middle_spd -= 5; new_middle_nsdap += 3; old_middle_nsdap += 3; unemployed_nsdap += 1
+
+We should not involve ourselves further with this scandal. We will not make an official statement and weather the storm.
+
+@declaration
+on-arrival: workers_spd -= 1; unemployed_spd -= 1; new_middle_spd -= 4; old_middle_spd -= 4; new_middle_nsdap += 4; old_middle_nsdap += 4
+
+By promising to root out corruption, we are certainly avoiding the worst effects of this far-right ploy. However, the NSDAP is using this to claim that even the SPD has supported the belief that Jewish bankers are stealing money from hard-working Germans. This attack also distracts the people from the Barmat-Kutisker scandal.
+
+@schacht
+view-if: schacht_exposed = 0 and investigate_far_right >= 1
+
+We already know of Schacht's corruption. It might be a good time to use the information against the far-right. This attack also distracts the people from the Barmat-Kutisker scandal.
+
+@business
+view-if: investigate_corruption >= 2
+
+Thanks to our investigation against corrupt businesses, we have gathered enough information to counter the far-right propaganda campaign. [+ nsdap_leader +] feebly tries to claim that the actions of an individual Christian don't apply to all Christians while the actions of one Jew apply to the entire Jewish religion.
